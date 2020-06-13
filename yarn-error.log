@@ -1,0 +1,43 @@
+Arguments: 
+  /home/edson/.nvm/versions/node/v12.17.0/bin/node /home/edson/.nvm/versions/node/v12.17.0/bin/yarn add emoji-cheat-sheet
+
+PATH: 
+  /home/edson/.zinit/polaris/bin:/home/edson/.nvm/versions/node/v12.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/edson/Android/Sdk//tools/tools:/home/edson/Android/Sdk//tools/bin/HOME/platform-tools/adb
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/emoji-cheat-sheet: Not found
+      at Request.params.callback [as _callback] (/home/edson/.nvm/versions/node/v12.17.0/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/home/edson/.nvm/versions/node/v12.17.0/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/edson/.nvm/versions/node/v12.17.0/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/edson/.nvm/versions/node/v12.17.0/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "exercicios_de_logica",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/EdsonMello-code/Exercicios_de_logica.git",
+    "author": "Edson <edsonmelo754@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
